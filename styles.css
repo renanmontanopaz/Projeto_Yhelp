@@ -149,6 +149,127 @@ section {
 
     color: #000022;
 }
+.quem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #000022;
+    justify-content: center;
+
+}
+.quem h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.quem p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+}
+.contatoimg{
+    display: flex;
+    height: 50%;
+}
+.contato h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    text-align: center;
+    color: #000022;
+}
+.formulario{
+    width: 610px;
+    height: 420px;
+    background: #EEEEEE;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#nome{
+    width: 203px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #E67F0D;
+    border-radius: 16px;
+}
+#email{
+    width: 203px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #E67F0D;
+    border-radius: 16px;
+}
+#assunto{
+    width: 203px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #E67F0D;
+    border-radius: 16px;
+}
+#mensagem{
+    width: 410px;
+    height: 205px;
+    background: #FFFFFF;
+    border: 1px solid #E67F0D;
+    border-radius: 16px;
+}
+.tresform{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.formulario p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #000022;
+}
+.botao3{
+    width: 122px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 3px solid #E67F0D;
+    border-radius: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 39px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+    color: #E67F0D;
+}
+.corpoform{
+    display: flex;
+    flex-direction: row;
+}
 @media screen and (max-width: 1200px){
     .cabecalho-logo{
         width: 100px;
