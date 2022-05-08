@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    font-size: 62.5%;
+}
+section {
+    height: 100vh;
+    width: 100%;
+    /*margin-top: 70px;*/
+}
+
+.cabecalho{
+    display:block;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background: #000022;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.cabecalho-logo{
+    height: 10%;
+    width: 10%;
+    margin-top: 10px;
+}
+.menu-item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+}
+.botao-da-nav{
+    width: 140px;
+    height: 38px;
+    background: #000022;
+    border: 2px solid #FFFFFF;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+
+    color: #E67F0D;
+}
+.home{
+    background: #000022;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.home h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #BEBEFF;
+}
+.home h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    width: 64.7rem;
+    color: #FFFFFF;
+}
+.home p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+.people{
+    height: 65%;
+
+}
+.textohome{
+    align-items: center;
+    margin-left: 9.4rem;
+    max-width: 64.7rem;
+}
+.botao2{
+    width: 178px;
+    height: 51px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    color: #E67F0D;
+}
+.sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.garota{
+    height: 65%;
+}
+.sobre h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+
+    color: #000022;
+}
+.sobre p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 43px;
+
+    color: #000022;
+}
+@media screen and (max-width: 1200px){
+    .cabecalho-logo{
+        width: 100px;
+    }
+    .cabecalho-menu{
+        flex-direction: column;
+        height: 100%;
+        gap: 10px;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    img {
+        height: 20%;
+    }
+}
