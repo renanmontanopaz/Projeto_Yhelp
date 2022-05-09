@@ -5,6 +5,7 @@
     <title>Y.help</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
 </head>
 <body>
 
@@ -32,11 +33,12 @@
         <img class="garota" src="img/pleasedonate.png">
         <div class="textosobre">
             <h1>SOBRE NÓS</h1>
+            <div class="linha"></div>
             <p>Acreditamos que a solidariedade é o combustível para mudar o mundo. Com o uso
                 da tecnologia, podemos conectar doadores à donatários de todos os lugares do
                 Brasil e transformar vidas. Yhelp é uma plataforma destinada a qualquer
                 pessoa que queira fazer ou solicitar uma doação, para começar basta se
-                cadastrar em nossa plataforma, assim, você terá acesso à anúncios publicados
+                <a class="cadastrar" href="#">cadastrar</a> em nossa plataforma, assim, você terá acesso à anúncios publicados
                 de outros usuários.</p>
             <p>Doar nunca ficou tão prático. Ajude milhares de pessoas.</p>
         </div>
@@ -55,20 +57,17 @@
             <div class="formulario">
                 <div class="tresform">
                 <div class="campo">
-                    <label>Nome:</label>
-                    <input type="text" name="Email" id="nome" required>
+                    <input type="text" name="Email" id="nome" placeholder="Nome*" required>
                 </div>
                 <div class="campo">
-                    <label>Email:</label>
-                    <input type="text" name="email" id="email" required>
+                    <input type="text" name="email" id="email" placeholder="Email*" required>
                 </div>
                 <div class="campo">
-                    <label>Assunto:</label>
-                    <input type="text" name="assunto" id="assunto" required>
+                    <input type="text" name="assunto" placeholder="Assunto*" id="assunto" required>
                 </div>
                 </div>
                 <div class="campo">
-                    <input type="text" name="mensagem" id="mensagem" required>
+                    <input type="text" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem aqui*" required>
                 </div>
                 <p>Por favor, deixe-nos uma mensagem.</p>
                 <button class="botao3">Enviar</button>
@@ -76,5 +75,21 @@
             <img class="contatoimg" src="img/contato.png">
         </div>
     </section>
+    <footer>
+        <div class="centro">
+            <img class="cabecalho-logo" src="img/logo.png">
+            <div>
+                <img class="redes" src="img/facebook.png">
+                <img class="redes" src="img/instagram.png">
+                <img class="redes" src="img/messenger.png">
+            </div>
+        </div>
+        <div class="textosfooter">
+            <p>POLÍTICA DE COOKIE</p>
+            <p>POLÍTICA DE PRIVACIDADE</p>
+            <p>TERMOS DE USO</p>
+        </div>
+        <p class="direitos">© 2022 - Yhelp. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
